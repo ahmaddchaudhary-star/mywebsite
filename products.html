@@ -1,66 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tea Ateria - Products</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Ateria - Products</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="logo">Tea Ateria</div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="contact.html">Contact</a>
+<header>
+    <div class="container nav-container">
+        <h1 class="logo">Tea Ateria</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </div>
-  </nav>
+</header>
 
-  <section class="page-banner">
-    <h1>Our Menu</h1>
-    <p>Fresh tea and delicious snacks.</p>
-  </section>
+<main class="products-page">
+    <div class="container">
+        <h2 class="page-title">Our Products</h2>
 
-  <section class="menu-grid">
+        <section class="card-grid">
+            <div class="card">
+                <img src="images/green-tea.png" alt="Green tea product image" class="card-image-real">
+                <h3>Green Tea</h3>
+                <p>Fresh, light, and relaxing tea for everyday use.</p>
+            </div>
 
-    <div class="menu-item">
-      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=800&q=80">
-      <div class="menu-content">
-        <h2>Masala Chai <span>€3</span></h2>
-        <p>Traditional rich tea with spices.</p>
-      </div>
+            <div class="card">
+                <img src="images/black-tea.png" alt="Black tea product image" class="card-image-real">
+                <h3>Black Tea</h3>
+                <p>Strong flavor and rich aroma for tea lovers.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/herbal-tea.png" alt="Herbal tea product image" class="card-image-real">
+                <h3>Herbal Tea</h3>
+                <p>Comforting blends made for a peaceful moment.</p>
+            </div>
+        </section>
     </div>
+</main>
 
-    <div class="menu-item">
-      <img src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=800&q=80">
-      <div class="menu-content">
-        <h2>Green Tea <span>€2.5</span></h2>
-        <p>Light and refreshing drink.</p>
-      </div>
-    </div>
-
-    <div class="menu-item">
-      <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80">
-      <div class="menu-content">
-        <h2>Cake <span>€4</span></h2>
-        <p>Soft and sweet dessert.</p>
-      </div>
-    </div>
-
-    <div class="menu-item">
-      <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80">
-      <div class="menu-content">
-        <h2>Sandwich <span>€5</span></h2>
-        <p>Fresh and filling snack.</p>
-      </div>
-    </div>
-
-  </section>
-
-  <footer class="footer">
+<footer>
     <p>&copy; 2026 Tea Ateria</p>
-  </footer>
+</footer>
 
 </body>
 </html>
